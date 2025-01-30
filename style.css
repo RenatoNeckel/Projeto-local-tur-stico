@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+:root {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+main {
+  padding: 88px 80px 65px;
+}
+
+#list img {
+  width: 100%;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #1B1B1B;
+}
+
+#chamado {
+  color: #E1624F;
+  font-size: 16px;
+  margin-bottom: 7px;
+  font-weight: bold; /*fonte em negrito*/
+  text-transform: uppercase; /*caixa alta nas letras*/
+}
+
+#description {
+  margin: 40px auto 40px;
+}
+
+#description img {
+  width: 100%;
+  font-size: 16px;
+}
+
+#legenda {
+  margin-top: 24px;
+  text-align: center;
+}
+
+#title-list {
+  margin: px auto 44px;
+}
+
+#content img {
+  margin: 48px auto 20px;
+}
+
+h2 {
+  margin-bottom: 8px;
+  font-weight: bold;
+  font-size: 28px;
+  color: #1B1B1B;
+}
+
+h3 {
+  font-size: 28px;
+  margin-bottom: 4px ;
+  font-weight: bold;
+  color: #1B1B1B;
+}
+
+ol li {
+  margin: 0 1.5em; /*puxa alista para a margin alinhada*/
+  font-size: 28px;
+  font-weight: bold;
+}
+ul li {
+  font-size: 16px;
+}
+.divider {
+  width: 100%; /*atravessa a caixa*/
+  height: 1px; /*largura da linha*/
+  margin: 36px 0; /*distancia dos elementos*/
+  background-color: #d9d9d9; /*cor*/
+}
+
+aside {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 48px;
+  font-family: "Alice", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+footer img {
+  vertical-align: middle;
+}
+
+ul li::marker {
+  color: #0C51A7;
+}
+
+p {
+  color: #333333;
+}
+
+
